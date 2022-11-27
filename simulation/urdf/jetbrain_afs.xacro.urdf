@@ -305,7 +305,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/manoj/robot/simulation/meshes/tilt_lidar_link.STL" />
+          filename="/home/manoj/robot/simulation/meshes/lidar_link.STL" />
       </geometry>
       <material
         name="">
@@ -319,7 +319,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/manoj/robot/simulation/meshes/tilt_lidar_link.STL" />
+          filename="/home/manoj/robot/simulation/meshes/lidar_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -454,7 +454,7 @@
       <command_interface name="position" />
       <state_interface name="position" />
     </joint>
-    <joint name=""drive_wheel_joint">
+    <joint name="drive_wheel_joint">
       <command_interface name="velocity" />
       <state_interface name="velocity" />
       <state_interface name="position" />
@@ -466,7 +466,5 @@
       <parameters>$(find simulation)/config/afs_tricycle_drive_controller.yaml</parameters>
     </plugin>
   </gazebo>
-
-</robot>
 
 </robot>
