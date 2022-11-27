@@ -4,4 +4,7 @@
 
 # But not these files & folders...
 !.gitignore
-!/meshes
+!/config
+!/examples
+!/launch
+!/urdf
